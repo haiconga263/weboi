@@ -557,40 +557,13 @@
             </div>
         </div>
     </section>
-    <section class="cta-form bg-dark">
-        <div class="container text-center">
-            <h3>Subscribe to our newsletter!</h3>
-            <hr class="colored">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- MailChimp Signup Form -->
-                    <div id="mc_embed_signup">
-                        <!-- Replace the form action in the line below with your MailChimp embed action! For more informatin on how to do this please visit the Docs! -->
-                        <form role="form" action="//startbootstrap.us3.list-manage.com/subscribe/post?u=531af730d8629808bd96cf489&amp;id=afb284632f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                            <div class="input-group input-group-lg">
-                                <input type="email" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email address...">
-                                <span class="input-group-btn">
-                                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe!</button>
-                                </span>
-                            </div>
-                            <div id="mce-responses">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- End MailChimp Signup Form -->
-                </div>
-            </div>
-        </div>
-    </section>
     <section id="contact">
         <div class="container wow fadeIn">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
+                    <h2>Liện hệ với chúng tôi!</h2>
                     <hr class="colored">
-                    <p>I'd love to hear about your next project! Send me a message and I will see if I can help.</p>
+                    <p>Hãy nêu yêu cầu của bạn và chúng tôi sẽ giúp bạn thực hiện nó</p>
                 </div>
             </div>
             <div class="row content-row">
@@ -598,37 +571,37 @@
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <label>Họ & Tên</label>
+                                <input type="text" class="form-control" placeholder="Họ & Tên" id="name" name="name" required data-validation-required-message="Hãy nhập họ và tên">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <input type="email" class="form-control" placeholder="Địa chỉ Email" id="email" name="email" required data-validation-required-message="Hãy nhập đúng Email.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <label>Số điện thoại</label>
+                                <input type="tel" class="form-control" placeholder="Số điện thoại" id="phone" name="phone" required data-validation-required-message="Hãy nhập số điện thoại.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <label>Nội dung yêu cầu</label>
+                                <textarea rows="5" class="form-control" placeholder="Yêu cầu của bạn" id="message" name="message" required data-validation-required-message="Hãy nhập yêu cầu."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <br>
                         <div id="success"></div>
                         <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-outline-dark">Send</button>
+                            <div class="form-group col-xs-8">
+                                <button type="submit" class="btn btn-outline-dark">Gửi</button>
                             </div>
                         </div>
                     </form>
@@ -636,22 +609,21 @@
             </div>
         </div>
     </section>
-    <a href="https://wrapbootstrap.com/theme/vitality-multipurpose-one-page-theme-WB02K3KK3" class="btn btn-block btn-full-width">Buy Vitality Now!</a>
     <footer class="footer" style="background-image: url('assets/img/bg-footer.jpg')">
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-4 contact-details">
-                    <h4><i class="fa fa-phone"></i> Call</h4>
-                    <p>555-213-4567</p>
+                    <h4><i class="fa fa-phone"></i>Số điện thoại</h4>
+                    <p>01698929327</p>
                 </div>
                 <div class="col-md-4 contact-details">
-                    <h4><i class="fa fa-map-marker"></i> Visit</h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
+                    <h4><i class="fa fa-map-marker"></i>Địa chỉ</h4>
+                    <p>67
+                        <br>Tăng Nhơn Phú A, Quận 9, TPHCM</p>
                 </div>
                 <div class="col-md-4 contact-details">
                     <h4><i class="fa fa-envelope"></i> Email</h4>
-                    <p><a href="mailto:mail@example.com">mail@example.com</a>
+                    <p><a href="mailto:mail@example.com">weboi@example.com</a>
                     </p>
                 </div>
             </div>
@@ -665,11 +637,6 @@
                         <li><a href="#"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
                         </li>
                     </ul>
-                </div>
-            </div>
-            <div class="row copyright">
-                <div class="col-lg-12">
-                    <p class="small">&copy; 2015 Start Bootstrap Themes</p>
                 </div>
             </div>
         </div>
